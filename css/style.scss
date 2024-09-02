@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+
+@import 'partials/color';
+@import 'partials/typography';
+@import 'partials/spacing';
+@import 'partials/layout';
+
+
+.attribution { font-size: 11px; text-align: center; opacity: 0.8;}
+.attribution a { color: hsl(228, 45%, 44%); }
