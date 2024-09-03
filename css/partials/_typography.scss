@@ -6,14 +6,15 @@
 
 h1{
     font-family: "Bai Jamjuree", sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
-   
-    
+    text-align: center;
+    color: $Dark-Grayish-Blue;
+
     @include responsivi(640px){
-        font-size: 5rem;
-        width: 70%;
+        font-size: 2.5rem;
         margin: 0 auto;
+        text-align: center;
     }
 }
 h2{
@@ -53,6 +54,8 @@ p{
     font-size: 1rem;
     font-weight: 500;
     line-height: 20px;
+    color: $Grayish-Blue;
+    text-align: center;
     @include responsivi(640px){
         font-size: 1rem;
     }
