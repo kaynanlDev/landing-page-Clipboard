@@ -16,5 +16,5 @@ body{
 @import 'partials/layout';
 
 
-.attribution { font-size: 11px; text-align: center; opacity: 0.8;}
+.attribution {position: absolute; bottom: 4px; font-size: 11px; text-align: center; opacity: 0.8;}
 .attribution a { color: hsl(228, 45%, 44%); }
